@@ -10,8 +10,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Diffbot.Client")]
-[assembly: AssemblyDescription("Diffbot Client Library for .NET")]
+[assembly: AssemblyTitle("Diffbot.Client.Tests")]
+[assembly: AssemblyDescription("Diffbot Client Library for .NET Unit Tests")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("KriaSoft LLC")]
 [assembly: AssemblyProduct("Diffbot Client Library for .NET")]
@@ -25,7 +25,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0a81efa9-78f2-40b1-9401-9157ec68f475")]
+[assembly: Guid("bee72e52-6d34-4917-89ad-7ef66e2372d9")]
 
 // Version information for an assembly consists of the following four values:
 //

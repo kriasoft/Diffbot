@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diffbot.Client", "src\Diffb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{18C697B6-D79B-4D72-91D0-A6EA9065B4E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diffbot.Client.Tests", "test\Diffbot.Client.Tests\Diffbot.Client.Tests.csproj", "{54992FB5-D0D7-499A-BF7C-0A4003059CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +30,16 @@ Global
 		{576AF9B9-3127-43FE-AFDE-6571EE32D113}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{576AF9B9-3127-43FE-AFDE-6571EE32D113}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{576AF9B9-3127-43FE-AFDE-6571EE32D113}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54992FB5-D0D7-499A-BF7C-0A4003059CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54992FB5-D0D7-499A-BF7C-0A4003059CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54992FB5-D0D7-499A-BF7C-0A4003059CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54992FB5-D0D7-499A-BF7C-0A4003059CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{576AF9B9-3127-43FE-AFDE-6571EE32D113} = {7AD6741D-3EC1-4A04-AA1B-B36A112C6B92}
+		{54992FB5-D0D7-499A-BF7C-0A4003059CD6} = {18C697B6-D79B-4D72-91D0-A6EA9065B4E0}
 	EndGlobalSection
 EndGlobal
