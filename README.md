@@ -7,7 +7,7 @@ This project provides a client library that make it easy to access [Diffbot](htt
 ```csharp
 using Diffbot.Client;
 
-var diffbot = new DiffBotClient("<your api key>");
+var diffbot = new DiffbotClient("<your api key>");
 var article = await diffbot.GetArticle("<web page url>");
 ```
 
