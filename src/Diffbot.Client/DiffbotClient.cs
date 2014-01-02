@@ -26,7 +26,7 @@ namespace Diffbot.Client
             this.httpClient = new HttpClient();
         }
 
-        public async Task<Article> ExtractArticleAsync(string url)
+        public async Task<Article> ExtractArticle(string url)
         {
             var uri = ArticleServiceUri +
                 "?token=" + Uri.EscapeDataString(this.token) +

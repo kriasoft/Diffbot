@@ -5,11 +5,10 @@ This project provides a client library that make it easy to access [Diffbot](htt
 ### Usage Sample
 
 ```csharp
-using (var client = new DiffBotClient(token: yourDeveloperToken))
-{
-    // Parses a web page and extracts article information (title, date, author, preview image etc.)
-    var article = await client.ExtractArticleAsync(webpageUrl);
-}
+using Diffbot.Client;
+
+var diffbot = new DiffBotClient("<your api key>");
+var article = await diffbot.ExtractArticle("<web page url>");
 ```
 
 ### Source Code
